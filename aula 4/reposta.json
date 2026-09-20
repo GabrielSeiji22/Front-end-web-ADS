@@ -1,0 +1,58 @@
+{
+  "args": {
+
+  },
+  "data": "",
+  "files": {
+
+  },
+  "form": {
+    "nome": "Ted",
+    "idade": "7",
+    "raca": "outra",
+    "sexo": "macho",
+    "cor": "Branco",
+    "peso": "9",
+    "brinca": "sim",
+    "comida": "Melancia",
+    "passeio": "2",
+    "brinquedo": "Cachorro de apertar",
+    "vacinado": "on",
+    "telefone": "11999999999",
+    "observacao": "Ele não gosta de pisar no molhado."
+  },
+  "headers": {
+    "host": "postman-echo.com",
+    "sec-fetch-user": "?1",
+    "sec-fetch-dest": "document",
+    "priority": "u=0, i",
+    "accept-language": "pt-BR",
+    "accept-encoding": "gzip, br",
+    "content-length": "207",
+    "cache-control": "max-age=0",
+    "upgrade-insecure-requests": "1",
+    "content-type": "application/x-www-form-urlencoded",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.136.1 Chrome/148.0.7778.280 Electron/42.10.0 Safari/537.36",
+    "origin": "null",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "navigate",
+    "x-forwarded-proto": "https"
+  },
+  "json": {
+    "nome": "Ted",
+    "idade": "7",
+    "raca": "outra",
+    "sexo": "macho",
+    "cor": "Branco",
+    "peso": "9",
+    "brinca": "sim",
+    "comida": "Melancia",
+    "passeio": "2",
+    "brinquedo": "Cachorro de apertar",
+    "vacinado": "on",
+    "telefone": "11999999999",
+    "observacao": "Ele não gosta de pisar no molhado."
+  },
+  "url": "https://postman-echo.com/post"
+}
