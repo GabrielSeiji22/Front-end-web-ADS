@@ -10,6 +10,115 @@
         <h1>Você tem um cachorro?</h1>
     </header>
 
-    <main></main>
+    <main>
+        <form>
+
+            <fieldset>
+                <legend>Informações do cachorro</legend>
+
+                <div>
+                    <label for="nome">Qual é o nome do seu cachorro?</label>
+                    <input type="text" id="nome" name="nome" placeholder="Ex: Rex" required>
+                </div>
+
+                <div>
+                    <label for="idade">Quantos anos ele tem?</label>
+                    <input type="number" id="idade" name="idade" min="0" max="30">
+                </div>
+
+                <div>
+                    <label for="raca">Qual é a raça dele?</label>
+                    <select id="raca" name="raca">
+                        <option value="">Selecione uma raça</option>
+                        <option value="labrador">Labrador</option>
+                        <option value="golden">Golden Retriever</option>
+                        <option value="poodle">Poodle</option>
+                        <option value="bulldog">Bulldog</option>
+                        <option value="pastor-alemao">Pastor Alemão</option>
+                        <option value="vira-lata">Vira-lata</option>
+                        <option value="outra">Outra</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Seu cachorro é macho ou fêmea?</p>
+
+                    <input type="radio" id="macho" name="sexo" value="macho">
+                    <label for="macho">Macho</label>
+
+                    <input type="radio" id="femea" name="sexo" value="femea">
+                    <label for="femea">Fêmea</label>
+                </div>
+
+                <div>
+                    <label for="cor">Qual é a cor do seu cachorro?</label>
+                    <input type="text" id="cor" name="cor" placeholder="Ex: Marrom e branco">
+                </div>
+
+                <div>
+                    <label for="peso">Qual é o peso dele?</label>
+                    <input type="number" id="peso" name="peso" min="0" max="100">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Cuidados e rotina</legend>
+
+                <div>
+                    <p>Seu cachorro gosta de brincar?</p>
+
+                    <input type="radio" id="brinca-sim" name="brinca" value="sim">
+                    <label for="brinca-sim">Sim</label>
+
+                    <input type="radio" id="brinca-nao" name="brinca" value="nao">
+                    <label for="brinca-nao">Não</label>
+                </div>
+
+                <div>
+                    <label for="comida">Qual é a comida favorita dele?</label>
+                    <input type="text" id="comida" name="comida" placeholder="Ex: Ração ou carne">
+                </div>
+
+                <div>
+                    <label for="passeio">Quantas vezes por dia você passeia com ele?</label>
+                    <input type="number" id="passeio" name="passeio" min="0" max="10">
+                </div>
+
+                <div>
+                    <label for="brinquedo">Qual é o brinquedo favorito dele?</label>
+                    <input type="text" id="brinquedo" name="brinquedo" placeholder="Ex: Bolinha">
+                </div>
+
+                <div>
+                    <input type="checkbox" id="vacinado" name="vacinado">
+                    <label for="vacinado">Meu cachorro está com as vacinas em dia.</label>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Contato e informações adicionais</legend>
+
+                <div>
+                    <label for="telefone">Digite seu telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="11999999999" pattern="[0-9]{11}"
+                    >
+                </div>
+
+                <div>
+                    <label for="observacao">Conte algo divertido sobre seu cachorro:</label>
+                    <textarea id="observacao" name="observacao" placeholder="Escreva aqui..."></textarea>
+                </div>
+
+            </fieldset>
+
+            <div>
+                <button type="submit">Enviar formulário</button>
+                <button type="reset">Limpar</button>
+            </div>
+
+        </form>
+    </main>
 </body>
 </html>
